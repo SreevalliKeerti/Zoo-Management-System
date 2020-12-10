@@ -1,0 +1,27 @@
+<html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body style="  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/234054/pexels-photo-234054.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh">
+    <div class="container text-light">
+        <form name="animal_guide" method="post">
+            <h1 style="font-size: 50px">Animal Guide</h1>
+            <p style="font-size:30px">1.Search a Guide</p>
+            <div class="col-5">
+                <input class="form-control" type="text" style="font-size: 20px" name="subm" placeholder="Enter Guide name">
+            </div>
+            <button class="btn btn-success mt-2" style="font-size: 20px" formaction="ags.php">Search</button><br/>
+            <p style="font-size: 30px">2.View all Animal Guide</p>
+            <button class="btn btn-primary" style="font-size: 20px" type="submit" formaction="agview.php">View</button><br/>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="zoos.css" />
+</head>
+
+<body style="  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://images.pexels.com/photos/624033/pexels-photo-624033.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;">
+    <div class="container">
+        <ul class="nav justify-content-end nav-pills">
+            <li class="nav-item"><a class="nav-link bg-secondary active mt-2" href="../index.php"> HOME </a></li>
+        </ul>
+        <form name="txtProjectInfo" method="post">
+            <h2 class="text-light" style="font-size: 60px">The Zoo</h2>
+            <p style="font-size:40px">1.Search a Zoo</p>
+            <div class="col-3">
+                <input class="form-control" type="text" style="font-size: 20px" name="subm" placeholder="Enter Zoo name"> <button class="btn btn-success mt-2" style="font-size: 20px" formaction="zoo.php">Search</button><br/>
+                <br>
+            </div>
+            <p style="font-size: 40px">2.Update Zoo</p>
+            <button class="btn btn-primary mx-1" style="font-size: 20px" type="submit" formaction="zooup.php">ZOO Name</button><button class="btn btn-primary mx-1" style="font-size: 20px" type="submit" formaction="loc.php">Location</button><button class="btn btn-primary mx-1"
+                style="font-size: 20px" type="submit" formaction="zoohours.php">Timings</button>
+            <button class="btn btn-primary" style="font-size: 20px" type="submit" formaction="cont.php">Contact</button>
+            <br>
+            <br>
+            <p style="font-size: 40px">3.View all Zoo</p>
+            <button class="btn btn-primary" style="font-size: 20px" type="submit" formaction="zooview.php">View</button><br/>
+            <br>
+            <p style="font-size: 40px">4.Insert a new Zoo details</p>
+            <button class="btn btn-primary" style="font-size: 20px" type="submit" formaction="zooins.php">Insert</button><br/>
+
+        </form>
+    </div>
+</body>
+
+</html>
